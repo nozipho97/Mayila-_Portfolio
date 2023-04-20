@@ -1,20 +1,13 @@
 <template>
   
-  <section class="home">
-    <div class="content2">
-      <h1>Hello There!</h1>
-      <div class="profile_content">
-        <div class="circle"></div>
-        <div class="profile"></div>
-      </div>
-      <div class="profile_content2">
-        <h1 class="name">Nozipho Mayila</h1>
-        <h2 class="occupation">Web Developer</h2>
-      </div>
+<div class="container">
+  <div class="row">
+    <div class="col">
+      <h1><i class="fa-solid fa-quote-left fa-2xl"></i>Hello there! my name is Nozipho Mayila and I am a fullstack developer<i class="fa-solid fa-quote-right fa-2xl"></i></h1>
     </div>
-  </section>
-
-
+    
+  </div>
+</div>
 
 </template>
 
@@ -23,76 +16,32 @@
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 
 <style scoped>
-*,
-*::before,
-*::after {
-margin: 0;
-padding: 0;
-box-sizing: border-box;
-font-family: Georgia, 'Times New Roman', Times, serif;
-}
 body {
 height: 100vh;
 width: 100%;
-background-color: sandybrown !important;
 }
-.content2{
-height: 100vh;
-width: 100%;
-display: flex;
-justify-content: center;
-align-items: center;
-flex-direction: column;
-background-color: sandybrown;
-gap: 2rem;
+
+.col{
+ padding: 50px;
+ margin: 20px;
+ width: 50rem;
+ background-color: #DE27E1;
+ border: 50%;
+ margin-left: 15rem;
+ height: 25rem;
+ background-image: url(https://i.postimg.cc/ZqRW2rmg/bald-image-removebg-preview.png);
+ background-repeat: no-repeat;
+
 }
-.content2 h1{
-color: saddlebrown;
-font-weight: bold;
-text-decoration:underline;
+
+h1{
+  text-align: center;
+  font-style: italic;
+  font-size: larger;
+  font-weight: bolder;
+  margin-top: 25%;
+  color: white;
 }
-.profile_content{
-aspect-ratio: 1/1;
-width: min(400px,90%);
-position: relative;
-}
-.circle{
-position: absolute;
-width: 100%;
-height: 100%;
-box-shadow: 10px 10px 0 saddlebrown , -10px -10px 0  lightsalmon;
-border-radius: 50%;
-animation: rotate 4s infinite linear;
-}
-.profile{
-border-radius: 50%;
-width: 100%;
-height: 100%; 
-background-image: url(https://i.postimg.cc/SRRk1Pw0/Nozipho-Mayila-picture-1.jpg);
-background-size: 100%;
-background-repeat: no-repeat;
-background-size: cover;
-background-position: center;
-transition: all 0.2s ease-in-out;
-position: absolute;
-}
-.name{
-color:saddlebrown;
-}
-.occupation{
-color: rgba(154, 72, 0, 0.591);
-}
-.profile:hover{
-background-size: 110%;
-box-shadow: 10px 10px 0  sandybrown , -10px -10px 0  saddlebrown;
-}
-.profile_content2{
-text-align: center;
-}
-@keyframes rotate {
-to{
-transform: rotate(360deg);
-}
-}
+
 
 </style>

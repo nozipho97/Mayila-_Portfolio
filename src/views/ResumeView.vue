@@ -1,245 +1,94 @@
 <template>
-<section id="experience">
-    <div class="container">
-        <h2>EXPERIENCE</h2>
-        <div class="experience-ct">
-            <div class="row">
-                <div class="col-md-6 timeline-label">
-                    <h4>key areas</h4>
-                    <p>front end development and backend development.</p>
-                    <a href="https://www.linkedin.com/in/nozipho-mayila-b03766210/" alt="LinkedIn profile" target="_blank">
-                        <div class="button-group-li">
-                            <div class="text-timeline">View on LinkedIn</div>
-                            <div class="icon-li"><span class="fa fa-linkedin" aria-hidden="true"></span></div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-md-6 timeline col-exp">
-                    <div class="timeline-year">
-                        <time datetime="2016">2020</time>
-                        <div class="timeline-experience">
-                            <span class="timeline-circle"></span>
-                            <div class="timeline-experience-info clear-after">
-                                <h5>Nandos</h5>
-                                <div class="timeline-role">Learnership</div>
-                                <p>October 2020 - September 2021</p>
-                            </div>
-                            <!-- experience-info -->
-                        </div>
-                        <!-- experience -->
-                        <time datetime="2015">2015</time>
-                        <div class="timeline-experience">
-                            <span class="timeline-circle"></span>
-                            
-                            <div class="timeline-experience-info clear-after">
-                                <h5>Ikapa Dance Company</h5>
-                                <div class="timeline-role">Choreograher</div>
-                                <p>May 2015 - December 2017</p>
-                            </div>
-                            <!-- experience-info -->
-                        </div>
-                        <!-- experience -->
-                    </div>
-                    <!-- year -->
-                    <div class="timeline-year timeline-year1">
-                        <time datetime="2014">2014</time>
-                        <div class="timeline-experience">
-                            <span class="timeline-circle"></span>
-                            <div class="timeline-experience-img"><img src="" alt=""></div>
-                            <div class="timeline-experience-info clear-after">
-                                <h5>Matriculated</h5>
-                            </div>
-                            <!-- experience-info -->
-                        </div>
-                            <!-- experience-info -->
-                        </div>
-                        <!-- experience -->
-                    </div>
-                    <!-- year -->
-                </div>
-            </div>
-            <!-- end row of two columns -->
-        </div>
-        <!-- end experience container of two columns -->
-    
-    <!-- end container experience -->
-</section>
+  <div class="cards">
+<div class="card" style="width: 18rem;">
+  <img src="https://i.postimg.cc/zfdpRL6c/bald-image.jpg" class="card-img-top" alt="sneaker">
+  <div class="card-body">
+    <h5 class="card-title">Portfolio</h5>
+    <p class="card-text">First project</p>
+    <a href="#" class="btn btn-light">netlify</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem; ">
+  <img src="https://i.postimg.cc/MHkyBWDZ/istockphoto-1320740500-170x170.jpg" class="card-img-top" alt="sneaker">
+  <div class="card-body">
+    <h5 class="card-title">Calculator</h5>
+    <p class="card-text">A project done with HTML, CSS and Javascript</p>
+    <a href="#" class="btn btn-light">netlify</a>
+  </div>
+</div>
+
+<div class="card" style="width: 18rem;">
+  <img src="https://i.postimg.cc/vT95ZD5k/front.jpg" class="card-img-top" alt="sneaker">
+  <div class="card-body">
+    <h5 class="card-title">Store website</h5>
+    <p class="card-text">A project done VueJS</p>
+    <a href="#" class="btn btn-light">github</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem;">
+  <img src="https://i.postimg.cc/fLhNPRM5/back.jpg" class="card-img-top" alt="sneaker">
+  <div class="card-body">
+    <h5 class="card-title">JS Project</h5>
+    <p class="card-text">A Javascript project for ecommerce</p>
+    <a href="#" class="btn btn-light">View on github</a>
+  </div>
+</div>
+<div class="card" style="width: 18rem; height:;">
+  <img src="https://i.postimg.cc/vTTx4zC4/sneaker.jpg" class="card-img-top" alt="sneaker">
+  <div class="card-body">
+    <h5 class="card-title">Sneaker Store</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-light">github</a>
+  </div>
+</div>
+<!-- <div class="card" style="width: 18rem; height:;">
+  <img src="https://i.postimg.cc/K8gV3FzX/sneaker.jpg" class="card-img-top" alt="sneaker">
+  <div class="card-body">
+    <h5 class="card-title">Sneaker Store</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-light">Go somewhere</a>
+  </div>
+</div> -->
+</div> 
 </template>
 
-<script>
-import ResumeView from '../views/ResumeView.vue';
 
+<script>
+import spinnerVue from '../components/spinnerVue.vue'
 export default{
-    name:'resume',
+    name: 'spinner',
     component:{
-        ResumeView
+        spinnerVue
     }
 }
-
 </script>
 
 <style scoped>
-#experience {
-	margin-top: 20px;
+.cards{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  gap: 4rem;
+  background-color: transparent;
+  margin-bottom: 10rem;
+  
+ 
+}
+.card{
+  margin: 20px;
+  padding: 20px;
+  width: 25rem;
+  box-shadow: 20px 20px 50px 10px #f008f4;
+  transition: width 2s, height 2s, transform 2s;
+}
+.card:hover{
+  transform: rotate(350deg);
+}
+.card-body{
+  text-align: center;
+  color: #f008f4;
 }
 
-#experience h2 {
-	font-weight: 700;
-	margin-top: 22px;
-	padding-bottom: 10px;
-	text-align: center;
-}
-
-.timeline-label h4 {
-	margin-top: 0;
-	font-size: 30px;
-	color:saddlebrown;
-	padding: 16px 0px;
-	font-weight: 700;
-}
-
-.timeline-label p {
-	color: saddlebrown;
-	padding: 8px 0px;
-	line-height: 27px;
-}
-
-.button-group-li {
-	cursor: pointer;
-	display: -webkit-inline-box;
-	display: -ms-inline-flexbox;
-	display: inline-flex;
-}
-
-.timeline-label a {
-	text-decoration: none;
-}
-
-.text-timeline {
-	background: saddlebrown;
-	color: #fff;
-	font-size: 18px;
-	height: 40px;
-	padding: 0 25px;
-	line-height: 40px;
-}
-
-.icon-li {
-	font-size: 20px;
-	width: 40px;
-	height: 40px;
-	line-height: 30px;
-	box-sizing: border-box;
-	border: 4px solid saddlebrown;
-	border-left: none;
-	-webkit-transition: 600ms -webkit-transform ease-in-out;
-	transition: 600ms -webkit-transform ease-in-out;
-	transition: 600ms transform ease-in-out;
-	transition: 600ms transform ease-in-out, 600ms -webkit-transform ease-in-out;
-	-webkit-transform: rotateY(90deg);
-	transform: rotateY(90deg);
-	-webkit-transform-origin: left;
-	transform-origin: left;
-	color: saddlebrown;
-	background: #fff;
-	text-align: center;
-}
-
-.button-group-li:hover .icon-li {
-	-webkit-transform: rotateY(0deg);
-	transform: rotateY(0deg);
-}
-
-.button-group-li {
-	-webkit-perspective: 200px;
-	perspective: 200px;
-	-webkit-perspective-origin: calc(100% - 40px);
-	perspective-origin: calc(100% - 40px);
-}
-
-.timeline-label {
-	padding-left: 7%;
-	margin-top: 2%;
-}
-
-.col-exp {
-	margin-top: 2%;
-}
-
-.timeline .timeline-experience {
-	position: relative;
-	float: left;
-	margin-left: 32px;
-	padding-left: 64px;
-	border-left: 2px solid #ccc;
-}
-
-.timeline .timeline-experience-info h5 {
-	margin-top: 0;
-	margin-bottom: 0.333em;
-	font-size: 18px;
-	color: #40E0D0;
-	font-weight: 700;
-}
-
-.timeline .timeline-experience-info .timeline-role {
-	font-size: 16px;
-	color: #008080;
-	font-weight: 600;
-}
-
-.timeline .timeline-experience-info p {
-	font-size: 12px;
-	color: #333;
-	line-height: 27px;
-}
-
-.timeline time {
-	display: block;
-	width: 65px;
-	color: #ccc;
-	text-align: center;
-	font-weight: 700;
-}
-
-.timeline .timeline-experience-img,
-.timeline .timeline-experience-info,
-.timeline .timeline-experience-info h5,
-.timeline .timeline-experience-info .role,
-.timeline .timeline-experience-info p {
-	clear: none;
-}
-
-.timeline .timeline-experience .timeline-circle {
-	position: absolute;
-	top: 16px;
-	left: -13px;
-	display: block;
-	width: 19px;
-	height: 19px;
-	border: 3px solid #ccc;
-	border-radius: 50%;
-	background-color: #F5F5F5;
-}
-
-.timeline .timeline-experience-img {
-	float: left;
-	width: 64px;
-	height: 64px;
-}
-
-.timeline .timeline-experience-img img {
-	width: 100%;
-}
-
-.timeline .timeline-experience-info {
-	margin-left: 87px;
-}
-
-.timeline-experience-info p {
-	margin-top: 10px;
-	margin-bottom: 20px;
-}
 
 
 </style>

@@ -6,7 +6,7 @@
         <div class="form">
           <h4>GET IN TOUCH</h4>
           <h2 class="form-headline">Send us a message</h2>
-          <form id="submit-form" action="https://formspree.io/f/xzbqvlgp"  method="post">
+          <form id="submit-form" action="https://formspree.io/f/xbjeqgqr"  method="post">
             <p>
               <input id="name" class="form-input" type="text" placeholder="Your Name*">
               <small class="name-error"></small>
@@ -36,15 +36,16 @@
         <div class="contacts contact-wrapper">
     
           <ul>
-            <li>We're people driven and provide high profile <span class="highlight-text-grey">service</span> for our clients. Ready to know
-              how we can help you?</li>
+            <li>I would love to hear from you, <span class="highlight-text-grey">message</span> me for any further information
+              </li>
             <span class="hightlight-contact-info">
-              <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i> seeklounge@gmail.com</li>
-              <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text">+27 68 652 2900</span></li>
+              <li class="email-info"><i class="fa fa-envelope" aria-hidden="true"></i> mayilanozipho@gmail.com</li>
+              <li><i class="fa fa-phone" aria-hidden="true"></i> <span class="highlight-text">+27 68 326 4041</span></li>
             </span>
             <i class="fa-brands fa-facebook" href="https://www.facebook.com/seekcpt/about_profile_transparency"></i>
             <i class="fa-brands fa-whatsapp" href="#"></i>
-            <i class="fa-brands fa-instagram" href="https://www.instagram.com/seekcpt/"></i>
+            <i class="fa-brands fa-github" href="https://github.com/nozipho97"></i>
+            <i class="fa-brands fa-linkedin" href="https://www.linkedin.com/in/nozipho-mayila-b03766210/"></i>
              
           </ul>
   
@@ -66,18 +67,21 @@ export default {
   }
   body {
     padding: 1rem;
-    color: #212d31;
+    color:  #860A89;
     font-family: Georgia, 'Times New Roman', Times, serif;
   }
   .contain {
-    background-color: sandybrown;
+    background-color: #DE27E1;
     max-width: 1170px;
     margin-left: auto;
     margin-right: auto;
     padding: 1em;
+    margin-bottom: 1rem;
   }
   div.form {
     background-color: #eee;
+    padding: 3em;
+    
   }
   .contact-wrapper {
     margin: auto 0;
@@ -93,10 +97,10 @@ export default {
     display: block;
     width: 10%;
     padding-top: 10px;
-    border-bottom: 3px solid saddlebrown;
+    border-bottom: 3px solid #DE27E1;
   }
   .highlight-text {
-    color: saddlebrown;
+    color:  #860A89;
   }
   .hightlight-contact-info {
     font-weight: 700;
@@ -113,7 +117,7 @@ export default {
     font-family: 'Roboto', sans-serif;
   }
   .required-input {
-    color: black;
+    color:  #860A89;
   }
   @media (min-width: 600px) {
     .contain {
@@ -129,7 +133,7 @@ export default {
   }
   .form-input:focus,
   textarea:focus{
-    outline: 1.5px solid saddlebrown;
+    outline: 1.5px solid #DE27E1;
   }
   .form-input,
   textarea {
@@ -154,7 +158,7 @@ export default {
     padding: 0;
   }
   .contacts {
-    color: #212d31;
+    color:  #860A89;
   }
   .form {
     background: #fff;
@@ -181,7 +185,7 @@ export default {
   }
   button, .submit-btn {
     background: transparent;
-    border: 1px solid saddlebrown;
+    border: 1px solid #DE27E1;
     color: sa;
     border-radius: 15px;
     padding: 5px 20px;
@@ -189,12 +193,12 @@ export default {
   }
   button:hover, .submit-btn:hover,
   button:focus , .submit-btn:focus{
-    background: saddlebrown;
+    background: #DE27E1;
     outline: 0;
     color: #eee;
   }
   .error {
-    color: saddlebrown;
+    color:  #860A89;
   }
   ul i {
     font-size: 1.5em;
@@ -208,10 +212,4 @@ export default {
     transform: translateY(-10px);
   }
   </style>
-  Footer
-  © 2023 GitHub, Inc.
-  Footer navigation
-  Terms
-  Privacy
-  Security
-  Status
+  

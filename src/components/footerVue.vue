@@ -1,50 +1,5 @@
-<template>
-    <footer class="footer-section">
-          <div class="container">
-              <div class="footer-cta pt-5 ">
-                  <div class="row">
-                      <div class="col-xl-4 col-md-4 mb-30">
-                          <div class="single-cta">
-                              <i class="fas fa-map-marker-alt"></i>
-                              <div class="cta-text">
-                                  <h4>Find me</h4>
-                                  <span>66 Drive ,Montlare,Cape Town</span>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-xl-4 col-md-4 mb-30">
-                          <div class="single-cta">
-                              <i class="fas fa-phone"></i>
-                              <div class="cta-text">
-                                  <h4>Call me</h4>
-                                  <span>+27 683 264 041</span>
-                              </div>
-                          </div>
-                      </div>
-                      <div class="col-xl-4 col-md-4 mb-30">
-                          <div class="single-cta">
-                              <i class="far fa-envelope-open"></i>
-                              <div class="cta-text">
-                                  <h4>Mail me</h4>
-                                  <span>mayilanozipho@gmail.com</span>
-                              </div>
-                          </div>
-                      </div>
-                  </div>
-              </div>
-              
-                              <div class="footer-social-icon">
-                                  <span>Follow us</span>
-                                  <ul class="social_icon">
-                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-                                </ul>
-                              </div>
-                            </div>
-            
-          
+<template> 
+      <footer>   
           <div class="copyright-area">
               <div class="container">
                   <div class="row">
@@ -72,6 +27,8 @@
   background: saddlebrown;
   position: relative;
   padding-top: 0.5px;
+  margin-right:1re;
+  padding-bottom: 15px;
 }
 .footer-cta {
   border-bottom: 1px solid #373636;
