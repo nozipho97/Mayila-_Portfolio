@@ -51,7 +51,7 @@ comment:"Nozipho is smart and very approachable, humble and  well spoken. Works 
                      shows off her great sense of humor.`
                 },
                 {name: 'Sivuyisiwe Mgijima',
-                    image: 'https://i.postimg.cc/K8Hsh84s/C11-Sivuyisiwe-3.jpg',
+                    image: 'https://i.postimg.cc/hGjWyhJh/C11-Sivuyisiwe-1.jpg',
                     relation:'Life Choices Academy,Colleague ',
                     comment:  `A woman of class and elegance, a prepossessing sight and of
                     course consisting of unfathomable intelligence. Always happy
@@ -75,14 +75,13 @@ comment:"Nozipho is smart and very approachable, humble and  well spoken. Works 
     gap: 4rem;
     background-color: transparent;
     margin: 4rem;
-    border: none;
-    
+    border: none;   
     
 }
 .flip-card {
     background-color: transparent;
     width: 300px;
-    height: 300px;
+    height: 200px;
     perspective: 1000px;
     padding: 0%;
     margin-bottom: 0%;

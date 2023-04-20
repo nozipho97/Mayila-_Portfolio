@@ -8,8 +8,6 @@
 
       <div class="about-me-flex-container">
         <div class="about-me-image">
-          <div class="back-div"></div>
-          
           <div class="main-image"><img src="https://i.postimg.cc/SRRk1Pw0/Nozipho-Mayila-picture-1.jpg" alt="nozi"></div>
         </div>
         <div class="about-me-content">
@@ -17,7 +15,7 @@
           <div class="logo"><img src="https://i.postimg.cc/DwGrvV5v/logo.png" alt="logo"></div>
 
           <div class="text">
-            An ambitious Front-end Developer and designer who takes great pride in the presentation and quality of work. 
+            An ambitious Full-Stack Developer and designer who takes great pride in the presentation and quality of work. 
 
             <br><br>
 
@@ -102,7 +100,7 @@ img {
 }
 .about-me .about-me-container .about-me-title {
   font-size: 55px;
-  color: #DE27E1;
+  color: white;
   font-weight: 500;
   text-align: left;
 }
@@ -211,7 +209,7 @@ img {
   }
 }
 .about-me-flex-container .about-me-content .text {
-  color: #87A4B6;
+  color: white;
   font-weight: 600;
   font-size: 18px;
 }
@@ -244,7 +242,7 @@ img {
 
 
 .mail-button2 {
-  background-color: #001925;
+  background-color: #860A89;
   position: absolute;
   bottom: 0;
   left: 0;
@@ -270,7 +268,7 @@ img {
 }
 .portfolio-link a{
   text-decoration: none;
-  color: #DE27E1;
+  color: white;
   padding: 2rem;
   margin: 1rem;
 

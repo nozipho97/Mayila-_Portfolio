@@ -1,4 +1,5 @@
 <template>
+
   <div class="cards">
 <div class="card" style="width: 18rem;">
   <img src="https://i.postimg.cc/zfdpRL6c/bald-image.jpg" class="card-img-top" alt="sneaker">
@@ -37,18 +38,18 @@
   <img src="https://i.postimg.cc/vTTx4zC4/sneaker.jpg" class="card-img-top" alt="sneaker">
   <div class="card-body">
     <h5 class="card-title">Sneaker Store</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-light">github</a>
+    <p class="card-text">A project done with HTML & CSS</p>
+    <a href="https://sneaker-mania.netlify.app" class="btn btn-light">github</a>
   </div>
 </div>
-<!-- <div class="card" style="width: 18rem; height:;">
-  <img src="https://i.postimg.cc/K8gV3FzX/sneaker.jpg" class="card-img-top" alt="sneaker">
+<div class="card" style="width: 18rem; height:;">
+  <img src="https://i.postimg.cc/HkSb968G/istockphoto-1047790854-170667a-removebg-preview.png" class="card-img-top" alt="sneaker">
   <div class="card-body">
-    <h5 class="card-title">Sneaker Store</h5>
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-light">Go somewhere</a>
+    <h5 class="card-title">Race Wesite</h5>
+    <p class="card-text">A basic website with HTML & CSS</p>
+    <a href="https://basicsitebasic.netlify.app" class="btn btn-light">Netlify</a>
   </div>
-</div> -->
+</div>
 </div> 
 </template>
 

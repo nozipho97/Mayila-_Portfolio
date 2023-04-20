@@ -18,7 +18,7 @@ export default{
 
 <style>
 #app {
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
@@ -27,7 +27,7 @@ export default{
   margin:0%;
   z-index: 0;
   background-color:#860A89;
-  height: 100vh;
+  /* height: 100vh; */
 
 }
 

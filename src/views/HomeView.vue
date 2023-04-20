@@ -28,9 +28,10 @@ width: 100%;
  background-color: #DE27E1;
  border: 50%;
  margin-left: 15rem;
- height: 25rem;
+ height: 30rem;
  background-image: url(https://i.postimg.cc/ZqRW2rmg/bald-image-removebg-preview.png);
  background-repeat: no-repeat;
+ background-position: center;
 
 }
 
