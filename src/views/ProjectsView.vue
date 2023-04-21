@@ -1,4 +1,5 @@
 <template>
+    <h3>R E S U M E</h3>
   <div class="container">
     <header class="header">
         <h1 class="primary--heading">Nozipho<span class="heading--deco">Mayila</span></h1>
@@ -143,6 +144,11 @@ body {
     outline: 3px solid #fff;
     outline-offset: -0.5rem;
 }
+@media only screen and (max-width: 480px) {
+  .image {
+    width: 100%;
+  }
+}
 .details {
     display: flex;
     flex-direction: column;
@@ -156,9 +162,10 @@ body {
     margin-block-end: var(--space--1);
     max-width: 20ch;
     background-color: var(--bg--light);
-    padding: var(--space--025) var(--space--1);
+    padding: var(--space--050) var(--space--1);
     color: var(--primary--accent);
     font-weight: 500;
+
 }
 
 .text {

@@ -63,6 +63,11 @@ img {
   -o-object-fit: cover;
      object-fit: cover;
 }
+@media only screen and (max-width: 480px) {
+  img {
+    width: 100%;
+  }
+}
 
 .container {
   max-width: 1300px;
@@ -181,6 +186,11 @@ img {
   -o-object-fit: cover;
      object-fit: cover;
   transition: all 0.2s ease-out;
+}
+@media only screen and (max-width: 480px) {
+  .main-image {
+    width: 100%;
+  }
 }
 .about-me-flex-container .about-me-image .main-image img:hover {
   transform: scale(1);

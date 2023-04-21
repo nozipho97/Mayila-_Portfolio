@@ -1,5 +1,5 @@
 <template>
-
+  <h3>P R O J E C T S</h3>
   <div class="cards">
 <div class="card" style="width: 18rem;">
   <img src="https://i.postimg.cc/zfdpRL6c/bald-image.jpg" class="card-img-top" alt="sneaker">
@@ -72,9 +72,17 @@ export default{
   gap: 4rem;
   background-color: transparent;
   margin-bottom: 10rem;
-  
- 
+  padding-left: 5rem;
 }
+@media (min-width: 700px) {
+    .cards {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+    }
+    .cards {
+      padding: 2em 2em;
+    }
+  }
 .card{
   margin: 20px;
   padding: 20px;
