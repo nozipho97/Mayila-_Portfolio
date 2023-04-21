@@ -74,15 +74,7 @@ export default{
   margin-bottom: 10rem;
   padding-left: 5rem;
 }
-@media (min-width: 700px) {
-    .cards {
-      display: grid;
-      grid-template-columns: 2fr 1fr;
-    }
-    .cards {
-      padding: 2em 2em;
-    }
-  }
+
 .card{
   margin: 20px;
   padding: 20px;
